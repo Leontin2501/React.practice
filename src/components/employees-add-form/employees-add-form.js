@@ -28,25 +28,6 @@ class EmployeesAddForm extends Component {
     }
 
 
-    // handleSubmit(e) {
-    //     e.preventDefault();
-    //     const
-    //     { contacts } = 
-    //     this.state.name = this.name.value,
-    //     e = this.refs.email.value,
-    //     phone = this.refs.phone.value;
-    //     this.setState({
-    //       contacts: [...contacts, {
-    //         name: '',
-    //         salary: ''
-    //       }]
-    //     }, () => {
-    //       this.refs.name.value = '';
-    //       this.refs.email.value = '';
-    //       this.refs.phone.value = '';
-    //     });
-    //   }
-
     render () {
         const {name, salary} = this.state
 
